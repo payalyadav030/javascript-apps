@@ -1,0 +1,136 @@
+body{
+    background-color: darkslategrey;
+}
+h2{
+    color: whitesmoke;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.player{
+    height: 215px;
+    width: 212px;
+    border: 1px solid whitesmoke;
+    margin-left: -5%;
+    border-radius: 14px;
+    position: relative;
+    left: 43px;
+}
+.score{
+    height: 215px;
+    width: 212px;
+    border:none;
+    border-radius: 14px;
+    justify-content: center;
+    position: relative;
+    left: 9%;
+
+}
+.info{
+    height: 71px;
+    width: 112px;
+    justify-content: center; 
+    background-color: black;
+    border-radius: 4px;
+    margin-left: 50px;
+    text-align: center;
+    color:white;
+    font-size: 22px;
+}
+.points{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.points .p1 {
+    height: 42px;
+    width: 49px;
+    font-size: larger;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin :2px;
+    border-radius: 3px;
+}
+.points .p2{
+    height: 42px;
+    width:49px;
+    font-size: larger;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin:2px;
+    border-radius: 3px;
+}
+.computer{
+    height: 215px;
+    width: 212px;
+    border: 1px solid whitesmoke;
+    border-radius: 14px;
+    position: relative;
+    left: 50px;
+}
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+}
+.heading2 ul{
+    width: 29%;
+}
+.heading2 .wisely{
+    position: relative;
+    left: 72px;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.choose{
+    background-color:cadetblue;
+    height: 64px;
+    width: 23%;
+    border-radius: 3px;
+}
+.win{
+    font-size: 18px;
+    color: whitesmoke;
+    height: 50px;
+    width: 32%;
+}
+.opponent{
+    background-color: cadetblue;
+    height: 64px;
+    width: 20%;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.weapons{
+    display: flex;
+    justify-content: space-around;
+}
+.rock{
+    height: 62px;
+    width: 82px;
+    padding: 2px;
+    border-radius: 25px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+}
+.rock:hover{
+    -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
